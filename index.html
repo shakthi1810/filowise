@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filowise</title>
+
+    <!-- Common stylesheet-->
+     <link rel="stylesheet" href="./css/common.css">
+    <!-- Custome stylesheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="./css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar-Start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex align-items-center">
+
+        <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+
+        <!-- toggle btn -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a href="#" class="offcanvas-title"><img src="./assets/img/logo.png" alt="logo"></a>
+            <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body d-flex flex-column flex-lg-row align-items-lg-center">
+            <ul class="navbar-nav  justify-content-lg-center flex-lg-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">For Individuals <img src="./assets/icons/down.svg" alt="#"></a>
+                <div class="dropdown-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <ul class="dropdown-tab-wrapper">
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">ITR Filing ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">ITR1</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">ITR2</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">ITR3</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">ITR4</a></li>
+                            </ul>
+                          </li>
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Planning and Advisory ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">Advance Tax Payment</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Tax Consultation</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">TDS on Rent-Form 26QC</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">TDS on Sales of Property-Form 26QB</a></li>
+                            </ul>
+                          </li>
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Assistance with Notices ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Scrutiny Notice- Under Section 143(2) and 143(1)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Notice for Non-Filing of Income Tax Return- Under Section 	142(1)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Defective Return Notice- Under Section 139(9)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Notice of Adjustment- Under Section 143(1)(a)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Show Cause Notice before Best Judgement – Under Section 144</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Demand Notice- Under Section 156</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Notice for Re-assessment- Under Section 148</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Notice for Penalty Proceedings- Under Section 270A, 271(1)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Reply to Notice for Rectification- Section 154</a></li>
+                            </ul>
+                          </li>
+                          <!-- <li><a class="dropdown-item" href="#">Advance Tax Payment</a></li> -->
+                          
+                          <li><a class="dropdown-item text-primary  mt-4" href="#">Get Started ></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">For Businesses <img src="./assets/icons/down.svg" alt="#"></a>
+
+                <div class="dropdown-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <ul class="dropdown-tab-wrapper">
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Company Incorporation ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./individuals.html">Private Limited Company</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Limited Liability Partnership </a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">One Person Company </a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Partnership Firm</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Section 8 Company</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <button class="dropdown-item dropdown-tabs">Compliance ></button>
+                            <div class="submenu-item">
+                              <div class="d-flex flex-wrap flex-lg-nowrap">
+                                <ul>
+                                  <li><a class="dropdown-item" href="./individuals.html">GST</a></li>
+                                  <li><a class="dropdown-item" href="./individuals.html">Registration</a></li>
+                                  <li>
+                                    <button class="dropdown-item dropdown-tabs-sub">Return Filing ></button>
+                                    <ul class="dropdown-submenu-menu">
+                                      <li><a href="./individuals.html">GSTR 1</a></li>
+                                      <li><a href="./individuals.html">GSTR 3B</a></li>
+                                      <li><a href="./individuals.html">GSTR 9</a></li>
+                                      <li><a href="./individuals.html">GSTR 9C</a></li>
+                                      <li><a href="./individuals.html">Nil Return</a></li>
+                                      <li><a href="./individuals.html">GSTR 4</a></li>
+                                      <li><a href="./individuals.html">GSTR 6</a></li>
+                                      <li><a href="./individuals.html">GSTR 7</a></li>
+                                      <li><a href="./individuals.html">GSTR 8</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a class="dropdown-item" href="./individuals.html">E-way Bill</a></li>
+                                  <li>
+                                    <button class="dropdown-item dropdown-tabs-sub">TDS Compliance and Filing ></button>
+                                    <ul class="dropdown-submenu-menu">
+                                      <li><a href="./individuals.html">Monthly TDS payment</a></li>
+                                      <li><a href="./individuals.html">TDS Return Filing</a></li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item dropdown-tabs-sub">Tax Filing ></button>
+                                    <ul class="dropdown-submenu-menu">
+                                      <li><a href="./individuals.html">ITR 5 (For Partnership Firms, LLPs, AOPs, BOIs)</a></li>
+                                      <li><a href="./individuals.html">ITR 6 and 7- For Companies and Trusts</a></li>
+                                      <li><a href="./individuals.html">Tax Audit Report</a></li>
+                                      <li><a href="./individuals.html">Advance Tax Calculation</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                                <ul>
+                                  <li>
+                                    <button class="dropdown-item dropdown-tabs-sub">ROC Compliances ></button>
+                                    <ul class="dropdown-submenu-menu">
+                                      <li><a href="./individuals.html">Form 3 (For LLP)</a></li>
+                                      <li><a href="./individuals.html">Form 8 (For LLPs)</a></li>
+                                      <li><a href="./individuals.html">Form 11 (For LLPs)</a></li>
+                                      <li><a href="./individuals.html">Form INC 20A (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form MGT 7 & 7A (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form AOC 4 (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form DPT 3 (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form ADT 1 (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form ADT 3 (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form MGT 14 (For Companies)</a></li>
+                                      <li><a href="./individuals.html">Form Dir3 KYC (For LLPs and Companies)</a></li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <button class="dropdown-item dropdown-tabs-sub">Conversion and Migration ></button>
+                                    <ul class="dropdown-submenu-menu">
+                                      <li class="d-block">
+                                        <a>LLP</a>
+                                        <ul class="d-flex flex-wrap gap-1 ms-2">
+                                          <li><a href="./individuals.html">Add a Designated Partner</a></li>
+                                          <li><a href="./individuals.html">Changes to LLP Agreement</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="d-block">
+                                        <a>Companies</a>
+                                        <ul class="d-flex flex-wrap gap-1 ms-2">
+                                          <li><a href="./individuals.html">Add a Director</a></li>
+                                          <li><a href="./individuals.html">Remove a Director</a></li>
+                                          <li><a href="./individuals.html">Increase Authorized Capital</a></li>
+                                          <li><a href="./individuals.html">Change Address</a></li>
+                                        </ul>
+                                      </li>
+                                      <li><a href="./individuals.html">Conversion from LLP to Private Limited Company</a></li>
+                                      <li><a href="./individuals.html">Conversion from OPC to Private Limited Company</a></li>
+                                      <li><a href="./individuals.html">Conversion from Private Limited Company to LLP</a></li>
+                                      <li><a href="./individuals.html">Conversion from Private Limited Company to OPC</a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a class="dropdown-item" href="./individuals.html">Udyam- MSME Registration</a></li>
+                                  <li><a class="dropdown-item" href="./individuals.html">Import Export Code Registration</a></li>
+                                  <li><a class="dropdown-item" href="./individuals.html">Digital Signature Certificate</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <button class="dropdown-item dropdown-tabs">Accounting and Bookkeeping ></button>
+                            <ul class="submenu-item">                           
+                              <li><a class="dropdown-item" href="./individuals.html">Regular Bookkeeping Services</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Financial Statement Preparation</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Virtual CFO Services</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Internal Audit</a></li>
+                            </ul>
+                          </li>
+                          <!-- <li>
+                            <button class="dropdown-item dropdown-tabs" href="./individuals.html">Tax Filings ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./individuals.html">Compliance</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Accounting and Bookkeeping</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Tax Filings</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">International Services</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Trademark and IP</a></li>
+                            </ul>
+                          </li> -->
+                          <li>
+                            <button class="dropdown-item dropdown-tabs">International Services ></button>
+                            <ul class="submenu-item">                         
+                              <li><a class="dropdown-item" href="./individuals.html">Foreign Subsidiary Companies in India</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Cross-Border Taxation and Compliance</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Transfer Pricing</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">FEMA Compliance</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <button class="dropdown-item dropdown-tabs">Incorporate in the US ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./individuals.html">Company Incorporation and Setup</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">EIN</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Registered Agent Services</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">US Banking Services</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">US Bookkeeping</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">US State and Federal Tax Filings and Compliances</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">BOI Filing</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Tax Forms (W8, W9, 1099)</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">ITIN</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Sales Tax Registration and Reseller Certificate</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Sales Tax Compliances</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">CPA Consultation</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="./individuals.html">Incorporate in the UAE</a></li>
+                          <li>
+                            <button class="dropdown-item dropdown-tabs">Trademark and IP ></button>
+                            <ul class="submenu-item">                         
+                              <li><a class="dropdown-item" href="./individuals.html">Trademark Registration</a></li>
+                              <li><a class="dropdown-item" href="./individuals.html">Patent Registration</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item text-primary  mt-4" href="#">Get Started ></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">For Startups <img src="./assets/icons/down.svg" alt="#"></a>
+                <div class="dropdown-menu">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <ul class="dropdown-tab-wrapper">
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Incorporation Services ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">Startup Incorporation (Private Limited Company, Limited Liability Partnership, Partnership Firm, One Person Company)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Legal Documentation</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Co-Founder Agreements</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Startup India Registration</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">DPIIT Certification</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">80- IAC Certification</a></li>
+                            </ul>
+                          </li>
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Fundraising Support ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">Pitch Deck Preparation</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Valuation Services</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Financial Modelling</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Grants Support</a></li>
+                            </ul>
+                          </li>
+                          <li class="submenu">
+                            <button class="dropdown-item dropdown-tabs">Compliance and Legal ></button>
+                            <ul class="submenu-item">
+                              <li><a class="dropdown-item" href="./Individuals.html">ESOP Planning and Compliance</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Intellectual Property Registration (Patents, Trademarks)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Regulatory Compliance (SEBI, RBI, etc.)</a></li>
+                              <li><a class="dropdown-item" href="./Individuals.html">Contract Drafting and Review</a></li>
+                            </ul>
+                          </li>
+                          
+                          <li><a class="dropdown-item text-primary  mt-4" href="#">Get Started ></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consult an Expert <img src="./assets/icons/down.svg" alt="#"></a>
+              </li>
+            </ul>
+            <div>
+              <a href="./sign-up.html" class="sign-btn text-decoration-none text-primary">Sign In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar-End -->
+
+    <!-- Header Section-Start -->
+     <section id="banner">
+      <div class="container">
+        <h2> Taxes on Autopilot Individuals & Businesses </h2>
+        <p> Individuals & small businesses choose Filowise <br> to pay taxes, file return & stay tax compliant. </p>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </span>
+        <br>
+        <span class="rating">[Rated 4.8 stars by customer like you]</span>
+        <div class="header-btns">
+          <button class="btn primary-btn">Consult Expert</button>
+          <button class="btn primary-btn">Get Started Now</button>
+        </div>
+      </div>
+     </section>
+    <!-- Header Section-End -->
+
+    <!-- Features Section-Start -->
+     <section id="features">
+      <div class="container">
+        <ul class="nav justify-content-around justify-content-md-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="for-business-tab" data-bs-toggle="pill" data-bs-target="#for-business" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Businesses</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="for-individuals-tab" data-bs-toggle="pill" data-bs-target="#for-individuals" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Individuals</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="for-startups-tab" data-bs-toggle="pill" data-bs-target="#for-startups" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Startups</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="for-business" role="tabpanel" aria-labelledby="for-business-tab" tabindex="0">
+            <h3 class="heading feature_heading">Popular Services</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="for-individuals" role="tabpanel" aria-labelledby="for-individuals-tab" tabindex="0">
+            <h3 class="heading feature_heading">For Individuals</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="for-startups" role="tabpanel" aria-labelledby="for-startups-tab" tabindex="0">
+            <h3 class="heading feature_heading">For Startups</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <div class="card-profile"></div>
+                    <h3 class="heading">Minimal follow-ups</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                      <li><i class="fa fa-circle" aria-hidden="true"></i>Minimal follow-ups for a</li>
+                    </ul>
+                    <button class="btn primary-btn">Starts from ₹10,000</button> <br />
+                    <a href="#" class="card-btn">Explore More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Features Section-End -->
+
+    <!-- Works Section-Start -->
+     <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6">
+            <h2 class="heading">How It Works</h2>
+            <p>Simple on-boarding, easy Form 16 upload,covers all deductions,claim TDS & e-file online</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 work-box">
+          <div class="col">
+            <img src="./assets/img/icon-1.png" alt="img">
+            <h3 class="heading">Purchase a Service</h3>
+            <p>Customized tax and legal solutions for you</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/icon-2.png" alt="img">
+            <h3 class="heading">Provide Documents</h3>
+            <p>Submit and verify your documents securely</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/icon-3.png" alt="img">
+            <h3 class="heading">CA Gets Assigned</h3>
+            <p>Get your CA assigned instantly</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/icon-4.png" alt="img">
+            <h3 class="heading">Customer Satisfaction</h3>
+            <p>Tailored support assisting your every step</p>
+          </div>
+        </div>
+        <button class="btn white-btn">Start with Taxes</button>
+      </div>
+     </section>
+    <!-- Works Section-End -->
+
+    <!-- Why Us Section-Start -->
+     <section id="whyus">
+      <ul class="d-flex justify-content-center">
+        <li><i class="fa fa-circle" aria-hidden="true"></i>Expert</li>
+        <li><i class="fa fa-circle" aria-hidden="true"></i>Simple</li>
+        <li><i class="fa fa-circle" aria-hidden="true"></i>Reliable</li>
+      </ul>
+      <div class="container container-1 text-center">
+        <h2>You are Best at Doing Business <br />Count on Us to Keep it Complaint</h2>
+        <div class="line"></div>
+        <p>With a deep understanding of legal and tax regulations, we ensure your<br />business stays compliant at all times. Let us handle the complexities while you <br />focus on <span>growth.</span>
+        </p>
+        <button class="btn primary-btn">Get Started Now</button>
+      </div>
+      <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+          <div class="col">
+            <div class="whyus-box">
+              <h3 class="heading">Minimal follow-ups</h3>
+              <p>Minimal follow-ups for a <br />smooth experience</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="whyus-box">
+              <h3 class="heading">Accuracy delivered</h3>
+              <p>Accuracy delivered with <br />every step</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="whyus-box">
+              <h3 class="heading">Safe and secure data</h3>
+              <p>Your data is always <br />safe and secure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Why Us Section-End -->
+
+
+    <!-- Client Section-Start -->
+    <section id="client-section">
+      <div class="container">
+      <h2>Trusted by Our Clients</h2>
+      <p>Customer experiences that speak for themselves</p>
+      <div class="owl-carousel owl-theme clients">
+        <div class="item client">
+          <h3>User 1</h3>
+          <span class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </span>
+          <p>
+            This was least anxious I have been while doing my taxes, and having
+            an expert review it, adds to that extra layer of confidence.
+          </p>
+        </div>
+        <div class="item client">
+          <h3>User 2</h3>
+          <span class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </span>
+          <p>
+            I was genuinely impressed with how smooth the whole process was.
+          </p>
+        </div>
+        <div class="item client">
+          <h3>User 3</h3>
+          <span class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </span>
+          <p>
+            I was genuinely impressed with how smooth the whole process was.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Client Section-End -->
+
+    <!-- Partners Section-Start -->
+     <section id="partners">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-4 text-center">
+          <div class="col">
+            <h4>The Indian Express</h4>
+          </div>
+          <div class="col">
+            <h4>Times Now India</h4>
+          </div>
+          <div class="col">
+            <h4>Times Of India</h4>
+          </div>
+          <div class="col">
+            <h4>Deccan Herald</h4>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Partners Section-End -->
+
+    <!-- Get Started Section-Start -->
+     <section id="getstart">
+      <div class="container">
+        <div class="row row-cols-12 d-flex justify-content-between align-items-center">
+          <div class="col">
+            <h2>FILE TAXES <br>FAST, ON TIME <br> WITH FILOWISE.</h2>
+          </div>
+          <div class="col">
+            <p>
+              Superfast onboarding, Import Trades, e-file <br>
+              instantly. Plan, Prepare & e-file.
+            </p>
+            <div>
+              <input type="text" placeholder="Your Email Address" />
+              <button class=" btn white-btn">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Get Started Section-End -->
+
+    <!-- Footer Section-Start -->
+     <footer id="footer">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 mb-5">
+          <div class="col">
+            <div class="head">
+              <img src="./assets/img/logo.png" alt="logo">
+            </div>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="head">INDIVIDUALS</div>
+            <ul>
+              <li><a href="#">ITR Filing</a></li>
+              <li><a href="#">Planning and Advisory</a></li>
+              <li><a href="#">Assistance with Notices</a></li>
+              <li><a href="#">Advance Tax Payment</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="head">BUSINESSES</div>
+            <ul>
+              <li><a href="#">Incorporation</a></li>
+              <li><a href="#">Compliance</a></li>
+              <li><a href="#">Accounting</a></li>
+              <li><a href="#">Tax Filing</a></li>
+              <li><a href="#">International Service</a></li>
+              <li><a href="#">Trademark & IP</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="head">STARTUPS</div>
+            <ul>
+              <li><a href="#">Incorporation Services</a></li>
+              <li><a href="#">Pitch Deck</a></li>
+              <li><a href="#">Compliance & Legal</a></li>
+              <li><a href="#">Other Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          <span>Terms and Conditions Of Use</span>
+          <span>Privacy & Security</span>
+          <span>&copy 2024 Filowise Private Limited</span>
+        </div>
+      </div>
+     </footer>
+    <!-- Footer Section-End -->
+
+
+    <!-- owl carousel script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="./js/common.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 50,
+        nav: true,
+        dots: false,
+        stagePadding:10,
+        responsive: {
+          0: {
+            items: 1.2,
+          },
+          600: {
+            items: 2.1,
+          },
+          1000: {
+            items: 2.5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
